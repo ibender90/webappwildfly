@@ -10,7 +10,7 @@ import java.io.IOException;
 @WebServlet(name = "BasicServlet", urlPatterns = "/basic_servlet")
 public class BasicServlet implements Servlet {
     private static Logger logger = LoggerFactory.getLogger(BasicServlet.class);
-    private transient ServletConfig config; //transient поля не подлежат сериализации
+    private transient ServletConfig config;
 
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
