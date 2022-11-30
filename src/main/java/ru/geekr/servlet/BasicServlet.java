@@ -7,7 +7,7 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 
-@WebServlet(name = "BasicServlet", urlPatterns = "/basic_servlet")
+//@WebServlet(name = "BasicServlet", urlPatterns = "/basic_servlet")
 public class BasicServlet implements Servlet {
     private static Logger logger = LoggerFactory.getLogger(BasicServlet.class);
     private transient ServletConfig config;
